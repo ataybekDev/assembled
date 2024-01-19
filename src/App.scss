@@ -1,0 +1,92 @@
+
+
+#header{
+    background: #070707;
+    padding: 27px 0;
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--navbar{
+            a{
+              color: #FFF;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            margin-right: 26px;  
+            }   
+        }
+        &--btn{
+            button{
+                color: #40AB7E;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                width: 140px;
+                height: 40px;
+                border-radius: 30px;
+                border: 2px solid #40AB7E;
+                background: transparent;
+                margin-right: 14px;
+                &:hover{
+                  color: #070707;
+                  background: #7CBA72;
+                }
+            }
+        }
+    }
+}
+
+
+#title{
+    padding: 20PX 0;
+    .title{
+      h1{
+        color: #000;
+        font-family: "Open Sans";
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 400;
+        padding-bottom: 16px;
+      }
+      h2{
+        color: #000;
+        font-family: "Open Sans";
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      &--group{
+        margin-left: 26px;
+        h3{
+            color: #000;
+           font-family: "Open Sans";
+           font-size: 12px;
+           font-style: normal;
+           font-weight: 400;
+           line-height: normal;
+        }
+      }
+    }
+}
+
+#footer{
+    background: #404149;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2{
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: #FFF;
+        }
+    }
+}
